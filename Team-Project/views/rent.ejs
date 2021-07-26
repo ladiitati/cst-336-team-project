@@ -1,0 +1,47 @@
+<%- include('partials/header.ejs') %>
+
+  <div class="jumbotron text-center">
+    <h1>Scooter Rentals</h1>
+    <p>Scooters to Rent</p>
+  </div>
+  <!-- background color 430541-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li ><a href="/">Home</a></li>
+          <li><a href="/signUp">Sign Up</a></li>
+          <li><a href="/rent" class="active-page">Rent</a></li>
+          <li><a href="/choose">Choose</a></li>
+          <li><a href ="/contact">Contact</a></li>
+          <li><a href ="/rubric">Grading Rubric</a></li>
+        </ul>
+      </div>
+    </nav>
+  <div class="container-fluid bg-1 ">
+  <!-- <h2 id ="rentText">What city do you plan to rent from?</h2>
+  <!-- cityChoice = -->
+  <!-- <select id="cC" class = "form-select">
+    <option value ="">Select One</option>
+    <option value ="den">Denali</option>
+    <option value ="mtR">Mt. Rainier</option>
+    <option value ="mtW">Mt. Whitney</option>
+    <option value ="mtM">Mt. Moriah</option>
+  </select>
+  -->
+  <form>
+    <div class="form-group">
+      <label for="email2">Email address:</label>
+      <input type="email2" class="form-control" id="email2">
+    </div>
+    <div class="form-group">
+      <label for="pwd2">Password:</label>
+      <input type="password" class="form-control" id="pwd2">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit2" class="btn btn-default">Submit</button>
+  </form>
+  </div>
+
+<%- include('partials/footer.ejs') %>

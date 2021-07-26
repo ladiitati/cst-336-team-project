@@ -1,0 +1,19 @@
+{
+  "name": "team-project",
+  "version": "1.0.0",
+  "description": "team project final",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "team 1",
+  "license": "ISC"
+}
